@@ -23,6 +23,7 @@
  */
 
 #include  "crocods.h"
+#include  "plateform.h"
 
 #ifndef PPI_H
 #define PPI_H

@@ -22,7 +22,7 @@
  */
 
 #include  "crocods.h"
-
+#include  "plateform.h"
 
 #ifndef ROMPACK_H
 #define ROMPACK_H

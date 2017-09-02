@@ -24,6 +24,7 @@
  */
 
 #include  "crocods.h"
+#include  "plateform.h"
 
 #ifndef __AUTOTYPE_HEADER_INCLUDED__
 #define __AUTOTYPE_HEADER_INCLUDED__

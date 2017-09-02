@@ -23,6 +23,7 @@
  */
 
 #include  "crocods.h"
+#include  "plateform.h"
 
 #ifndef AY8912_H
 #define AY8912_H

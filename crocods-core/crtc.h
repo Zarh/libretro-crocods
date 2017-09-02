@@ -23,6 +23,7 @@
  */
 
 #include  "crocods.h"
+#include  "plateform.h"
 
 #ifndef CRTC_H
 #define CRTC_H

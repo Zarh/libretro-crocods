@@ -73,7 +73,9 @@ PSG_setVolumeMode (PSG * psg, int type)
     switch (type)
     {
         case 1:
+#ifndef __CELLOS_LV2__ // internal compiler error: in simplify_subreg, at simplify-rtx.c:4211
             psg->voltbl = voltbl[EMU2149_VOL_YM2149];
+#endif
             break;
         case 2:
             psg->voltbl = voltbl[EMU2149_VOL_AY_3_8910];

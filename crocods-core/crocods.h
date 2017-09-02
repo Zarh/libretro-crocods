@@ -32,8 +32,8 @@
 #include <sys/types.h>
 #include <unistd.h>
 
-struct core_crocods_s;
-typedef struct core_crocods_s core_crocods_t;
+//struct core_crocods_s;
+//typedef struct core_crocods_s core_crocods_t;
 
 typedef unsigned short          USHORT;
 typedef signed short            SHORT;

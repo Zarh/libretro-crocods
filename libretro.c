@@ -14,6 +14,14 @@
 #include "crocods-core/plateform.h"
 #include "crocods-core/gif.h"
 
+#include "crocods-core/autotype.h"
+#include "crocods-core/crtc.h"
+#include "crocods-core/upd.h"
+#include "crocods-core/vga.h"
+#include "crocods-core/sound.h"
+#include "crocods-core/snapshot.h"
+#include "crocods-core/asic.h"
+
 extern const unsigned char icons_gif[];
 extern const unsigned char cpc6128_bin[];
 extern const unsigned char romdisc_bin[];
@@ -114,7 +122,7 @@ void retro_init(void)
     environ_cb(RETRO_ENVIRONMENT_GET_SAVE_DIRECTORY, &savedir);
 
 
-    char oldOpenFilename[PATH_MAX];
+    char oldOpenFilename[256];
     strcpy(oldOpenFilename, gb.openFilename);
 
     memset(&gb,0,sizeof(gb));

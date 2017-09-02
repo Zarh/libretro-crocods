@@ -23,6 +23,7 @@
  */
 
 #include  "crocods.h"
+#include  "plateform.h"
 
 #ifndef SNAPSHOT_H
 #define SNAPSHOT_H
